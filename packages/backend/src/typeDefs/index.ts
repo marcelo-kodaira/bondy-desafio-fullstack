@@ -1,4 +1,4 @@
-import mutation from './mutation'
+import mutation, { userType } from './mutation'
 import query from './query'
 
-export default [query, mutation]
+export default [query, mutation, userType];
